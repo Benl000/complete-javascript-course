@@ -66,9 +66,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -132,9 +134,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -158,10 +162,14 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background: linear-gradient(to top left, #917b23 0%, #ffea09 50%, #917b23 100%);
 }
 
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
 }
